@@ -20,6 +20,37 @@ import matplotlib.pyplot as plt
 # --- Configurações Iniciais --- #
 st.set_page_config(layout="wide", page_title="Sistema de Gerenciamento de Posto de Saúde")
 
+# Estilização com CSS
+with open("styles.css") as f:
+    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+footer="""<style>
+a:link , a:visited{
+color: blue;
+background-color: transparent;
+}
+
+a:hover,  a:active {
+color: red;
+background-color: transparent;
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: white;
+color: black;
+text-align: center;
+}
+</style>
+<div class="footer">
+<p>Developed with ❤ by <a style='text-align: center;' href="https://github.com/juvenalculino" target="_blank">Juvenal Culino</a></p>
+</div>
+"""
+st.markdown(footer,unsafe_allow_html=True)
+
 # Garante que as tabelas do banco de dados sejam criadas ao iniciar o app
 # create_tables() # Esta chamada provavelmente deve estar em um script de inicialização do banco de dados,
                 # ou você pode mantê-la aqui, mas cuidado para não recriar tabelas a cada execução
@@ -66,7 +97,7 @@ def login_page():
                 show_error("E-mail não encontrado.")
         else:
             show_error("Por favor, insira seu e-mail e senha.")
-    st.write("Juvenal Culino")
+    st.write("Email: admin@hospital.com  Senha: admin123")
 
 # --- Seção de Gerenciamento de Hospitais --- #
 def hospital_management_section():

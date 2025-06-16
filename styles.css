@@ -1,0 +1,47 @@
+/*---------------Inicio Estilo do formulario login-----------------*/
+[data-testid="stForm"] {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 20px;    
+}
+#sign-in {
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+/*-----------------Fim estilo do formulario login-----------------*/
+
+/*-----------------Início do estilo do botão submit-----------------*/
+/* Estilização geral do botão de suubmit */
+button[data-testid="stBaseButton-secondaryFormSubmit"] {
+
+    background-color: #e9bc28; /* Cor de fundo */
+    width: 100%;
+    color: rgb(255, 255, 255); /* Cor do texto */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remove borda padrão */
+    cursor: pointer; /* Cursor ao passar o mouse */
+
+
+/*Cor de fundo do botão submit quando alguem vclicar*/
+}
+
+/*Quando o botão está em foco mas não está ativo*/
+button[data-testid="stBaseButton-secondaryFormSubmit"]:focus:not(:active) {
+    color: rgb(32, 109, 177);
+}
+/*tamanho da fonte do texto submit*/
+.st-emotion-cache-1hyd1ho p {
+    font-size: 22px;
+}
+/*cor de fundo do textp quando o mouse passar em cima*/
+div > div > button > div > p:hover {
+
+    color: #0c0c0cd0; /* Cor de fundo */
+}
+
+/*-----------------Fim do estilo do botão submit-----------------*/
