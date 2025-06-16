@@ -1,4 +1,4 @@
-Com certeza\! Adicionarei o link do site hospedado de forma destacada no `README.md`.
+Ótima ideia\! Adicionarei uma seção de "Próximos Passos" no `README.md` com essas sugestões.
 
 -----
 
@@ -89,6 +89,25 @@ Siga estes passos para configurar e executar o sistema na sua máquina:
   * `aplicacao/dados_fake.py`: Script para criar as tabelas do banco de dados e popular com dados de exemplo.
   * `aplicacao/requirements.txt`: Lista de todas as dependências Python necessárias.
   * `aplicacao/styles.css`: Arquivo CSS para estilização personalizada da interface do Streamlit.
+
+## 💡 Próximos Passos e Ideias para Melhoria
+
+Este projeto é uma base sólida e pode ser expandido com as seguintes melhorias:
+
+  * **Inclusão de Inteligência Artificial/Machine Learning:**
+      * **Previsão de Estoque:** Implementar modelos para prever a demanda de medicamentos, otimizando o estoque e evitando faltas ou excessos.
+      * **Análise Preditiva de Doenças:** Utilizar dados de atendimento para identificar padrões e prever surtos de doenças em regiões específicas.
+      * **Recomendação de Tratamentos:** Sugerir tratamentos com base em diagnósticos e históricos de pacientes.
+  * **Modularização Avançada:**
+      * **Serviços RESTful:** Transformar as funções CRUD em uma API RESTful (com Flask, FastAPI ou Django REST Framework) para desacoplar o backend do frontend.
+      * **Separação de Componentes UI:** Organizar a interface do Streamlit em componentes reutilizáveis para melhor manutenção e escalabilidade.
+  * **Outras Ideias:**
+      * **Notificações em Tempo Real:** Implementar alertas para estoque baixo ou validades próximas via e-mail ou SMS.
+      * **Integração com Prontuários Eletrônicos:** Conectar o sistema a prontuários eletrônicos de pacientes para uma visão 360º.
+      * **Dashboards Interativos:** Aprimorar os relatórios com dashboards mais complexos e filtros dinâmicos.
+      * **Suporte a Múltiplos Usuários/Perfis:** Detalhar permissões de acesso baseadas em cargos (médico só vê pacientes, administrativo gerencia hospitais, etc.).
+      * **Auditoria de Ações:** Registrar logs de todas as operações realizadas no sistema para rastreabilidade.
+      * **Sistema de Agendamento de Consultas:** Adicionar funcionalidade para agendamento e gerenciamento de consultas.
 
 ## 🤝 Contribuições
 
