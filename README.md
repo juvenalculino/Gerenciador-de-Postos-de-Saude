@@ -6,6 +6,8 @@
 
 Um sistema de gerenciamento completo para postos de saúde, desenvolvido em Python com Streamlit para a interface e SQLite como banco de dados. Este projeto visa otimizar a administração de hospitais, postos de saúde, funcionários, pacientes, medicamentos, atendimentos e prescrições.
 
+<img src="https://github.com/juvenalculino/Gerenciador-de-Postos-de-Saude/blob/master/2025-06-16_19-12.png">
+
 ## 🔗 Acesse a Aplicação Online\!
 
 Você pode explorar o sistema em funcionamento diretamente pelo navegador:
